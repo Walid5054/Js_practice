@@ -63,5 +63,62 @@
 // console.log(c);
 
 
+// let counter = 0;
 
+// // Function to increment counter
+// function add() {
+//   let counter = 0;
+//   counter += 1;
+// }
 
+// // Call add() 3 times
+// add();
+// add();
+// add();
+// function returnValue() {
+//   let name = 'walid';
+//   return function(){
+//     name = 'hello '+name;
+//     return name;
+//   }
+// }
+// const innerFunction = returnValue();
+// console.log(innerFunction());
+// console.log(innerFunction());
+// console.log(innerFunction());
+// function remmemberNumber(){
+//   let number = 0;
+//   return function(){
+//     number += 1;
+//     return number;
+//   }
+// }
+// const increment = remmemberNumber();
+// console.log(increment());
+// console.log(increment());
+// console.log(increment());
+// function execute(callback){
+//   callback();
+// }
+// execute(function(){
+//   console.log("callback executed");
+// });
+// function calculate(x, y, operation){
+//   return operation(x, y)
+// }
+// function add(x, y){
+//   return x+y
+// }
+// function subtract(x, y){
+//   return x-y
+// }
+// console.log(calculate(10, 5, add));
+// console.log(calculate(10, 5, subtract));
+function changeNumber(num) {
+  num = 50;
+  console.log("Inside function:", num);
+}
+
+let x = 10;
+changeNumber(x);
+console.log(x);
