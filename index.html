@@ -5,8 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+<style>
+  .post{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+  }
+</style>
 <body>
-  
+  <button onclick="loadData()">load data</button>
+  <button onclick="handleUser()">handle user</button>
+  <button onclick="handlePost()">handle post</button>
+  <button onclick="handleUpdate()">handle update</button>
+  <div>
+    <ul id="users">
+
+    </ul>
+  </div>
+  <div id="postContainer" class="post-container">
+
+
+  </div>
+  <script src="promise.js"></script>
+  <script src="json.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
